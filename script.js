@@ -93,3 +93,12 @@ document.addEventListener("DOMContentLoaded", () => {
   moveIndicatorTo(activeItem);
   updateContent(activeItem.textContent);
 });
+
+  document.getElementById('clickMeButton').addEventListener('click', function() {
+    window.open(
+      'https://Jonfwilleford.github.io/Business-Card/', // replace with your actual GitHub Pages URL
+      'businessCardWindow', // window name
+      'width=300,height=400,resizable=no,scrollbars=no' // window features
+    );
+  });
+
