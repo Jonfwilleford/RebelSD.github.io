@@ -91,5 +91,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Set initial indicator position
   const activeItem = document.querySelector(".nav-item.active") || navItems[0];
   moveIndicatorTo(activeItem);
-  updateContent(activeItem.textContent);
+  loadContent(activeItem.querySelector('a').getAttribute('href'));
 });
