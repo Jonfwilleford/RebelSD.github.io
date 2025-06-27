@@ -1,2 +1,11 @@
 <p>We are a team of developers passionate about design and building cool projects.</p>
 <button id="clickMeButton">Business Card</button>
+<script>
+  document.getElementById('clickMeButton').addEventListener('click', function() {
+    window.open(
+      'https://Jonfwilleford.github.io/Business-Card/', // replace with your actual GitHub Pages URL
+      'businessCardWindow', // window name
+      'width=300,height=400,resizable=no,scrollbars=no' // window features
+    );
+  });
+</script>
